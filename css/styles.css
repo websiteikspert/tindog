@@ -1,0 +1,134 @@
+                            /* TITLE SECTION */
+
+
+.container-fluid{padding: 3% 15%;}
+
+.row{padding-top: 10%;}
+
+#title{background-color: #ff4c68;
+}
+
+.container-first{padding-top: 5%;}
+
+#first-h1{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.interesting-div{ width: 75%;
+}
+
+.phone-img{ transform: rotate(25deg);
+    height: 400px;
+    width: 200px;
+    position: absolute;
+    right: 20%;
+   }
+
+   .title-btn{ margin:5% 1%;}
+
+                                        /* FEATURES SECTION*/
+
+
+.featuress{padding: 15% 5%;  text-align: center;
+     background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+                                        /* TESTIMONIAL SECTION */
+
+
+#testimonials{ padding:15% 0 5%;
+text-align: center;
+background-color: #ef8172;
+color: #fff;
+}
+
+h2{padding: 0 15%;}
+
+.dog{ border-radius: 100%;
+height: 15%;
+width: 15%;
+padding: 5% 1% ;}
+
+.testimonial-image{ border-radius: 100%;
+    height: 15%;
+    width: 15%;
+    padding: 5% 1% ;
+}
+
+                /* PRESS SECTION */
+
+#press{padding: 0 15%;
+background-color: #ef8172;
+}
+
+.press-img{padding: 5% 3%;
+    height: 50%;
+    width: 23%;
+
+}
+
+#pricing{padding: 10% 0;
+margin: 0 ;}
+
+.plan{text-align: center;
+margin-bottom:5% ;
+line-height: 2.5;
+}
+.pricing-row{ padding-top: 0;}
+
+.pricing-card{padding:0 3%;
+    text-align: center;
+    
+    
+}
+
+.pricing-btn{width: 90%;
+    height: 30%;
+}
+
+.background{ background-color: #343a40;
+    width: 90%;
+    height: 30%;
+    color: #fff;
+
+}
+
+.background:hover{ background-color: #000;}
+
+.pricing-btn:hover{ background-color: #000;
+color: #fff;}
+
+.pricing-textcard{border: none;
+    
+}
+
+#cta{background-color: #ff4c68;
+text-align: center;
+color: #fff;
+padding: 7% 15%;
+}
+
+.cta{ font-size: 3rem;
+padding: 0 0 5%;}
+
+#footer{ background-color: #fff;
+padding: 10% 15%;
+text-align: center;}
+
+
+@media (max-width: 997px){
+    .phone-img{ transform: rotate(0deg);
+        height: 400px;
+        width: 200px;
+        position: static;
+              }
+
+              #title{text-align: center;}
+
+}
